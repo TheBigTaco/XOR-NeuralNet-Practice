@@ -1,4 +1,9 @@
 Learning about machine learning:
 How do I make a neural network?
+I am using Synaptic.js in order to code neurons and layers. These can be used to "Teach" the network to learn.
+
 How does it work?
+It takes in n amount of inputs, and multiplies them by their weights. The weights determine the importance of the number as far as I can tell. Then it's all added together. Finally, it's bias value is subtracted. In my js file, we loop through 20k times, to teach the network what values their outputs should be based on the inputs given.
+
 What can it be used for?
+In the example I have in my js file, it is used to solve xor stuff. It can recognize that certain inputs should have certain values that will affect the outputs values.
